@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+	<title>Auktion-300</title>
+
+	<script src="assets/js/moduler/api.js" defer></script>
+
+	<script src="assets/js/moduler/bud.js" defer></script>
+	<script src="assets/js/moduler/build.js" defer></script>
+	<script src="assets/js/moduler/search.js" defer></script>
+
+	<script src="assets/js/app.js" defer></script>
+</head>
+<body>
+	<header>
+		<div class="heading">
+			<h1 class="heading-title">Grupp 300</h1>
+			<div class="names">Tommy Kärnström, Rojin Yilmaz, Rooheed Gulistami, Häni Abu Zeid</div>
+		</div>
+
+	</header>
+	<div class="search-box">
+		<div class="Field Field--is-search">
+			<input type="search" id="sok"="Sök här..." placeholder="Sök auktioner" class="searchBox-query">
+			<select class="select" id="filterSelect">
+				<option value="UtropsPris">Utrops pris</option>
+				<option value="SlutDatum">Slutdatum</option>
+				<option value="Title">Titel</option>
+			</select>
+			<button class="Btn SearchBox-submitBtn" type="submit" id="click" name="button">Sök</button>
+		</div>
+	</div>
+
+	<div id="content" class="content"></div>
+
+</body>
+
+</html>

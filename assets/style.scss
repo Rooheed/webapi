@@ -1,0 +1,174 @@
+ // @import 'normalize';
+
+ /*basic styles*/
+ @import url(//fonts.googleapis.com/css?family=Roboto:400,300);
+ @import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+
+ @import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+*, *:before, *:after {
+	margin: 0;
+  padding: 0;
+}
+
+body {
+	font: 100% Lato, Helvetica, sans-serif;
+	margin: 0 auto;
+	line-height: 1.6;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+.form input{
+  height: 39px;
+  border: 1px solid;
+  border-radius: 5px;
+  display:flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+button#Skapaauktion{
+  background: lightseagreen;
+  color: white;
+}
+
+.heading {
+  position: relative;
+  background-color: lightseagreen;
+  height: 6rem;
+  padding: 20px 0;
+}
+  .heading-title {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    transition: all .2s;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  .names {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+.content{
+  width: 100%;
+  margin: 0 auto;
+}
+ input,
+ button,
+ .SearchBox:before {
+   padding: .35em .75em;
+   border: none;
+   font-size: 1.3rem;
+   text-decoration: none;
+   outline: none;
+ }
+
+ .Field {
+   display: flex;
+   padding-top: 10px;
+   margin: 50px 0;
+   justify-content: center;
+ }
+
+ .SearchBox-submitBtn {
+   background: lightseagreen;
+   font-weight: 300;
+   text-transform: uppercase;
+   color: #EDFFEC;
+ }
+
+ .select {
+   outline: none;
+
+ }
+
+ .search-box{
+
+   input{
+     height: 39px;
+     border: 1px solid grey;
+     border-radius: 5px;
+   }
+
+   .select{
+     appearance: none;
+     padding: 0 10px;
+     margin: 0 10px;
+     height: 39px;
+     background: white;
+     border: 1px solid grey;
+     border-radius: 5px;
+     font-size: 1.3rem;
+   }
+
+   button{
+     border-radius: 5px;
+   }
+ }
+
+
+
+
+.content{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.item{
+  min-width: 31.3333%;
+  width: 31.33333%;
+  margin: 50px 1%;
+
+  .title{
+    padding: 0 0 10px 0;
+    line-height: 1;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    color: #565656;
+  }
+
+  .description{
+    color: #333333;
+  }
+
+  button{
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    width: 50%;
+    cursor: pointer;
+    color: white;
+    border: 1px solid lightseagreen;
+    background: lightseagreen;
+    border-right: 0;
+
+    &:hover{
+      color: white;
+      background: lightseagreen;
+    }
+  }
+
+  input{
+    margin: 10px 0 0 0;
+    box-sizing: border-box;
+    width: 50%;
+    border: 1px solid lightseagreen;
+  }
+
+  .expire{
+    margin: 10px 0 0 0;
+    padding: 3px 0;
+    width: 100%;
+    background: lightseagreen;
+    font-size: 1.3rem;
+    color: white;
+    text-align: center;
+  }
+}
